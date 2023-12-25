@@ -25,12 +25,9 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import CameraScreen from './src/CameraScreen';
 import UpdatedCamera from './src/Screen/UpdatedCamera';
-import CameraComponent from './src/Screen/CameraComponent';
 //  import {NavigationContainer} from '@react-navigation/native';
 //  import {createNativeStackNavigator} from '@react-navigation/native-stack';
-
 
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -41,7 +38,6 @@ const App: () => Node = () => {
   // const Stack = createNativeStackNavigator();
 
   return (
- 
     <SafeAreaView>
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
