@@ -41,28 +41,7 @@ const App: () => Node = () => {
   // const Stack = createNativeStackNavigator();
 
   return (
-    // <NavigationContainer>
-    //   <SafeAreaView style={backgroundStyle}>
-    //     <StatusBar
-    //       barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-    //       backgroundColor={backgroundStyle.backgroundColor}
-    //     />
-    //     <ScrollView
-    //       contentInsetAdjustmentBehavior="automatic"
-    //       style={backgroundStyle}>
-    //       {/* <CameraScreen/> */}
-    //       {/* <CameraComponent/> */}
-    //       {/* <UpdatedCamera /> */}
-    //       <Stack.Navigator initialRouteName="Home">
-    //         <Stack.Screen
-    //           name="Home"
-    //           component={UpdatedCamera}
-    //           //options={{headerShown: false}}
-    //         />
-    //       </Stack.Navigator>
-    //     </ScrollView>
-    //   </SafeAreaView>
-    // </NavigationContainer>
+ 
     <SafeAreaView>
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
